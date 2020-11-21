@@ -32,7 +32,7 @@ app.get('/api/students', (req, res) => {
 });
 
 app.get('/api/students/:id', (req, res) => {
-    const student = students.find(c => c.id === req.params.id);
+    const student = students.find(c => c.id === parseInt(req.params.id));
     if (!student) return res.status(404).send('Student not found');
     else res.send(student);
 });
@@ -50,7 +50,7 @@ app.post('/api/students', (req, res) => {
 
 app.put('/api/students/:id', (req, res) => {
     // In case it doesn't exist
-    const student = students.find(c => c.id === req.params.id);
+    const student = students.find(c => c.id === parseInt(req.params.id));
     if (!student) return res.status(404).send('Student not found');
 
     student.name = req.body.name;
@@ -58,7 +58,7 @@ app.put('/api/students/:id', (req, res) => {
 });
 
 app.delete('/api/students/:id', (req, res) => {
-    const student = students.find(c => c.id === req.params.id);
+    const student = students.find(c => c.id === parseInt(req.params.id));
     if (!student) return res.status(404).send('Student not found');
 
     const index = students.indexOf(student);
