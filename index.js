@@ -2,7 +2,7 @@
  * Name: Proyecto Final Diseño de sistemas distribuidos
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
- * Written by Elmer Fudd <oscar.orozco@cetys.edu.mx>, November 2020
+ * Written by Oscar O. Inowe <oscar.orozco@cetys.edu.mx>, November 2020
  */
 
 const express = require('express');
