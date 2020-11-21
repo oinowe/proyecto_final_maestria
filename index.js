@@ -18,9 +18,9 @@ app.use(express.json());
 */
 
 const students = [
-    {id: '1', name: 'Jorge', age: 20, enroll: true},
-    {id: '2', name: 'Juan', age: 30, enroll: false},
-    {id: '3', name: 'Oscar', age: 25, enroll: false},
+    {id: 1, name: 'Jorge', age: 20, enroll: true},
+    {id: 2, name: 'Juan', age: 30, enroll: false},
+    {id: 3, name: 'Oscar', age: 25, enroll: false},
 ];
 
 app.get('/', (req, res) => {
