@@ -1,0 +1,21 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "Proyecto final de diseño de sistemas distruidos, construccion de REST API para publicar en AWS o Azure por medio de Containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proyecto",
+    "final",
+    "diseño",
+    "distribuidos"
+  ],
+  "author": "Oscar Inowe & Zarina Talamantes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  }
+}
