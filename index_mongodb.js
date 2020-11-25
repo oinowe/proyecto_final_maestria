@@ -1,5 +1,5 @@
-/* Copyright (C) Oscar Inowe & Zarina Talamantes - All Rights Reserved
- * Name: Proyecto Final Diseño de sistemas distribuidos
+/* Copyright (C) - All Rights Reserved
+ * Name: API Node.js - Pipeline Azure & AWS
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  * Written by Oscar O. Inowe <oscar.orozco@cetys.edu.mx>, November 2020
