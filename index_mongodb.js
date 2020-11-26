@@ -19,7 +19,7 @@ app.use('/students', studentRoutes);
 
 // Initializer
 app.get('/', (req, res) => {
-    res.send('API Sistemas Distribuidos');
+    res.send('API Proyecto Maestria');
 });
 
 // Connect to DB
