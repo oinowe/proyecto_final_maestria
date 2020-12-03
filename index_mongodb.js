@@ -19,7 +19,7 @@ app.use('/students', studentRoutes);
 
 // Initializer
 app.get('/', (req, res) => {
-    res.send('API Proyecto Maestria Software Node.js');
+    res.send('API Proyecto Maestria Software Prueba Node.js');
 });
 
 // Connect to DB
